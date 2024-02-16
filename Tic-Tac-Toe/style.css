@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+}
+.msg{
+    font-size: 8vh;
+    color: green;
+}
+.hid{
+    display:none;
+}
+
+h1{
+   text-align: center;
+   font-size: 8vh;
+   /* margin-bottom: 100px; */
+}
+.grp{
+    display: flex;
+    justify-content: center;
+}
+#div{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.btn{
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    font-size: 3em;
+}
+.rst-btn, #rst-btn2{
+    background-color: green;
+    color: aliceblue;
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5%;
+    border: none;
+}
