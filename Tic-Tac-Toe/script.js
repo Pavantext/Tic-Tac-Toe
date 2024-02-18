@@ -66,6 +66,7 @@ rstbtn.addEventListener("click", () => {
 });
 rstbtn2.addEventListener("click", () => {
     for(bt of btn) {
+        count = 0;
         bt.innerText = "";
         bt.disabled = false;
         msgcont.classList.add("hid");
